@@ -10,7 +10,7 @@ body{
     height: 100vh;
     display: grid;
     place-items: center;
-    background:linear-gradient(#ffd000,#ffee02,#ac992f);
+    background:linear-gradient(#0099ff,#0278ff,#2f8fac);
 }
 /*==CONTAINER==*/
 .container{
@@ -26,7 +26,7 @@ body{
 .head{
     display: flex;
     align-items: center;
-    color: #57606f;
+    color: #006eff;
 }
 .head .fa{
     margin-left: 5px;
@@ -48,7 +48,7 @@ body{
     height: 100%;
     padding: 0 10px 0 40px;
     border-radius: 5%;
-    border: 1px solid #57606f48;
+    border: 1px solid #0259ee48;
     outline: none;
     background: transparent;
     font-size: 16px;
@@ -67,6 +67,7 @@ body{
     padding: 2px 10px;
     margin: 2px;
     font-size: 14px;
+    color: #0077ff;
     font-weight: bold;
     background-color: #ced6e6;
     border-radius: 3px;
