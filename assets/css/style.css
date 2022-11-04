@@ -8,8 +8,9 @@
 /*==BODY==*/
 body{
     height: 100vh;
-    display: grid;
-    place-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background:linear-gradient(#0099ff,#0278ff,#2f8fac);
 }
 /*==CONTAINER==*/
@@ -80,4 +81,12 @@ body{
     font-size: 10px;
     cursor: pointer;
     color: red;
+}
+
+/*==SCREEN AJUSTMENT==*/
+@media (max-width: 600px){
+    .container{
+        transform: scale(90%);
+        position: relative;
+    }
 }
